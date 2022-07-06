@@ -2,7 +2,6 @@ import 'package:conditional_builder_null_safety/conditional_builder_null_safety.
 import 'package:flutter/material.dart';
 import 'package:todo_app/cubit/todo_cubit.dart';
 
-//Hello Worldddddd!!!!!!!!!!!!
 Widget buildTaskItem(Map model, context) => Dismissible(
       key: Key(model['id'].toString()),
       background: Container(
